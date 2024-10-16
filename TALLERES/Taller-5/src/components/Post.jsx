@@ -1,4 +1,3 @@
-// Post.jsx
 import React, { useEffect, useState } from 'react';
 import { useDispatch } from 'react-redux';
 import { toggleLike, toggleShare } from '../redux/postsSlice';
@@ -85,7 +84,7 @@ const Post = ({ post }) => {
   const handleShare = async () => {
     await postsApi.toggleShare(post.id);
     dispatch(toggleShare(post.id));
-    setIsShared(!isShared); // Cambia el estado de compartir
+    setIsShared(!isShared);
   };
 
   return (
