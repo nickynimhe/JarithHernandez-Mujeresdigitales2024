@@ -1,4 +1,3 @@
-// Comment.jsx
 import React from 'react';
 import PropTypes from 'prop-types';
 
@@ -17,7 +16,7 @@ Comment.propTypes = {
     body: PropTypes.string.isRequired,
     userId: PropTypes.number.isRequired,
     username: PropTypes.string.isRequired,
-    profilePicture: PropTypes.string.isRequired, // Agregar la foto de perfil como prop
+    profilePicture: PropTypes.string.isRequired, 
   }).isRequired,
 };
 
