@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@400;800&display=swap');
+
+@tailwind base;
+/* Esta línea importa las clases base de Tailwind CSS, 
+que proporcionan estilos básicos para elementos HTML como títulos, 
+párrafos, enlaces, etc.*/
+
+@tailwind components;
+/* Esta línea importa las clases de componentes de Tailwind CSS, 
+que proporcionan estilos para componentes de interfaz de usuario como botones, 
+formularios, navegación, etc.*/
+
+@tailwind utilities;
+/* Esta línea importa las clases de utilidades de Tailwind CSS, 
+que proporcionan estilos para utilidades como espaciado, colores, tamaños de fuente, etc.*/
+
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  font-family: 'Manrope', sans-serif;
+  -webkit-tap-highlight-color: transparent;
+}
